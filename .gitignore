@@ -1,2 +1,15 @@
-ftwo 
-fone
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+venv/
+ftwo/
+.env
+
+.idea/
+.vscode/
+
+.pytest_cache/
+
+*.db
