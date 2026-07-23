@@ -9,9 +9,9 @@ Method Type:GET
 Request Fields:None 
 Access Type:Public
 '''
+
 @app.get('/')
 def root_request():
-    return {'msg':'Application Root Requst'}
-
+    return {'msg':'Application Root Request'}
 
 app.include_router(emp_router)
